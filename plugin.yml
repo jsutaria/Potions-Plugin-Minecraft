@@ -1,0 +1,38 @@
+name: Nightvision
+main: me.lordusan.Nightvision
+version: 2.1
+commands:
+    potions:
+        description: Lists the potions
+        usage: /<command>
+    nv:
+        description: Gives Nightvision to the player
+        usage: /<command>
+    fr:
+        description: Gives fire resistance to the player
+        usage: /<command>
+    jb:
+        description: Gives jump boost to the player
+        usage: /<command>
+    heal:
+        description: Heals the player
+        usage: /<command>
+    fast:
+        description: Gives speed boost to the player
+        usage: /<command>
+permissions:
+    nightvision.thing:
+        description: Nightvision Perms
+        default: op
+    fireresistance.thing:
+        description: Fire Resistance Perms
+        default: op
+    jump.thing:
+        description: Jump Perms
+        default: op
+    heal.thing:
+        description: Heal Perms
+        default: op
+    speed.thing:
+        description: Speed Perms
+        default: op
